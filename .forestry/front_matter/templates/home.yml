@@ -49,6 +49,18 @@ fields:
       schema:
         format: html-blocks
     label: Main Text
+  - name: team_members
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: team
+        file: 
+        path: 
+    label: Team Members
   config:
     min: 
     max: 
