@@ -1,0 +1,22 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: header
+  label: header
+- type: file
+  name: hero-img
+  label: hero-img
+- type: textarea
+  name: hero-text
+  label: hero-text
+- type: file
+  name: team-img
+  label: team-img
+- type: textarea
+  name: our-services
+  label: our-services
