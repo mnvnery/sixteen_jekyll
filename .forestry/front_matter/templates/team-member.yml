@@ -49,3 +49,5 @@ fields:
   config:
     maxSize: 64
   label: Portrait
+pages:
+- _team_members/Alex.html
