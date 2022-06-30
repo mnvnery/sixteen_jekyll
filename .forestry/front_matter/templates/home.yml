@@ -49,17 +49,15 @@ fields:
       schema:
         format: html-blocks
     label: Main Text
-  - name: team_members
-    type: select
-    default: []
+  - name: team-members
+    type: list
     config:
-      required: false
-      options: []
+      use_select: true
+      min: 
+      max: 
       source:
         type: pages
         section: team
-        file: 
-        path: 
     label: Team Members
   config:
     min: 
