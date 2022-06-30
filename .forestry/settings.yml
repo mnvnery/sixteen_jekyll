@@ -9,7 +9,7 @@ sections:
   label: Team
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: index.html
   label: Home

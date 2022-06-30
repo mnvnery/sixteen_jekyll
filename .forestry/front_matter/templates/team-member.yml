@@ -1,4 +1,51 @@
 ---
 label: Team Member
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: role
+  type: text
+  config:
+    required: false
+  label: Role
+- name: sector
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Retail & Leisure
+    - 'Offices '
+    - Professional
+    - Industrial
+    - Building Consultancy
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Sector
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: contact
+  type: text
+  config:
+    required: false
+  label: Contact
+- name: linkedin
+  type: text
+  config:
+    required: false
+  label: LinkedIn
+- name: portrait
+  type: file
+  config:
+    maxSize: 64
+  label: Portrait
