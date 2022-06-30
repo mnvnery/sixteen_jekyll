@@ -22,3 +22,35 @@ fields:
 - type: textarea
   name: our-services
   label: Services Info
+- name: services_
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: short_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Short Description
+    description: inside coloured box
+  - name: main_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Main Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: 'Services '
