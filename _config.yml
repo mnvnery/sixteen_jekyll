@@ -15,7 +15,10 @@ plugins:
 
 sass:
   sass_dir: _sass
-
+  
+collections:
+  team_members: 
+    output: false
 
 # exclude:
 #   - .sass-cache/
