@@ -3,7 +3,7 @@ label: Team Member
 hide_body: true
 display_field: name
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: false
@@ -52,3 +52,4 @@ fields:
   label: Portrait
 pages:
 - _team_members/Alex.html
+- _team_members/nicola-harrington.html
