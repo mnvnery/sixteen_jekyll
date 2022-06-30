@@ -5,18 +5,20 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: header
-  label: header
+  label: Intro Header
 - type: file
   name: hero-img
-  label: hero-img
+  label: Hero Image
+  hidden: true
 - type: textarea
   name: hero-text
-  label: hero-text
+  label: Intro Copy
 - type: file
   name: team-img
-  label: team-img
+  label: Team Image
 - type: textarea
   name: our-services
-  label: our-services
+  label: Services Info
