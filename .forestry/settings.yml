@@ -9,7 +9,7 @@ sections:
   label: Team
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: app
   templates:
   - team-member
 - type: document
