@@ -1,0 +1,33 @@
+---
+layout: default
+header: A REAL ESTATE SURVEYOR DRIVEN BY A DESIRE TO ASSIST WITH YOUR NEEDS
+hero-img: assets/img/hero-img.png
+hero-text: We're a small team of curious humans who create work we’re proud of for people and brands we believe in. With collaboration at the heart of every project, we identify what skills are required and then bring the best people together to create something truly extraordinary. Combining strategy, branding, web design and development, we build digital experiences that transform the way people connect and interact with brands.
+team-img: assets/img/team-img.jpg
+our-services: We offer a range of services including this and that and the other. Get in touch with us as we love to help.
+---
+<div class="mx-4 my-4">
+    <h1 class="hero-header">{{ page.header }}</h1>
+    <div class="d-flex justify-content-between">
+        <div class="hero-text mb-5">
+            {{ page.hero-text }}
+            <br>
+            <div class="mt-5">
+                <div class="black-btn">OUR PROPERTIES</div>
+            </div>
+        </div>
+            <img src="{{ site.baseurl }}/{{ page.hero-img }}" alt="" class="hero-img">
+    </div>
+    <div class="border border-dark border-bottom my-5"></div>
+    <div class="mx-5 px-5 my-3">
+        <img src="{{ site.baseurl }}/{{ page.team-img }}" alt="" class="team-img w-100">
+    </div>
+    <div class="d-flex">
+        <div class="w-50">OUR<br>SERVICES</div>
+        <div class="w-50"><div class="w-35">{{ page.our-services }}</div></div>
+    </div>
+    <div class="d-flex">
+        <div class="w-50"></div>
+        <div class="w-50"></div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.sass",
+		"_sass/main.sass",
+		"_sass/0-base/dir-base.sass",
+		"_sass/0-base/style.sass",
+		"_sass/1-modules/dir-modules.sass",
+		"_sass/2-layouts/dir-layouts.sass",
+		"_sass/2-layouts/index.sass"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"@import \"0-base/dir-base\";\n@import \"1-modules/dir-modules\";\n@import \"2-layouts/dir-layouts\";\n\n",
+		"@import \"style\";\n",
+		"@font-face {\n    font-family: \"Azeret Mono\";\n    src: url(\"../fonts/AzeretMono-VariableFont_wght.ttf\");\n    font-weight: normal; }\n\n@font-face {\n    font-family: \"Plus Jakarta Sans\";\n    src: url(\"../fonts/PlusJakartaSans-Regular.ttf\");\n    font-weight: normal; }\n\n.font-azeret {\n    font-family: 'Azeret Mono'; }\n\n.font-jakarta {\n    font-family: 'Plus Jakarta Sans'; }\n\nbody {\n    font-family: 'Plus Jakarta Sans'; }\n\n.black-bg {\n    background-color: black; }\n\na {\n    color: inherit;\n    text-decoration: none; }\n\n.black-btn {\n    background-color: black;\n    color: white;\n    border-radius: 20px;\n    padding: 10px 15px;\n    display: inline-block; }\n",
+		"",
+		"@import \"index\";\n",
+		".hero-header {\n    font-size: 4.5em;\n    width: 65%; }\n\n.hero-img {\n    margin-right: -1.5em;\n    margin-top: -8em; }\n\n.hero-text {\n    margin: 2em;\n    margin-left: 5em;\n    width: 35%; }\n\n.w-35 {\n    width: 35%; }\n"
+	],
+	"names": [],
+	"mappings": "AGAA,UAAU,GACN,WAAW,EAAE,aAAa,EAC1B,GAAG,EAAE,gDAAgD,EACrD,WAAW,EAAE,MAAM;;AAEvB,UAAU,GACN,WAAW,EAAE,mBAAmB,EAChC,GAAG,EAAE,2CAA2C,EAChD,WAAW,EAAE,MAAM;;AAEvB,AAAA,YAAY,CAAC,EACT,WAAW,EAAE,aAAa,GAAG;;AAEjC,AAAA,aAAa,CAAC,EACV,WAAW,EAAE,mBAAmB,GAAG;;AAEvC,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,mBAAmB,GAAG;;AAEvC,AAAA,SAAS,CAAC,EACN,gBAAgB,EAAE,KAAK,GAAG;;AAE9B,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,OAAO,EACd,eAAe,EAAE,IAAI,GAAG;;AAE5B,AAAA,UAAU,CAAC,EACP,gBAAgB,EAAE,KAAK,EACvB,KAAK,EAAE,KAAK,EACZ,aAAa,EAAE,IAAI,EACnB,OAAO,EAAE,SAAS,EAClB,OAAO,EAAE,YAAY,GAAG;;AG/B5B,AAAA,YAAY,CAAC,EACT,SAAS,EAAE,KAAK,EAChB,KAAK,EAAE,GAAG,GAAG;;AAEjB,AAAA,SAAS,CAAC,EACN,YAAY,EAAE,MAAM,EACpB,UAAU,EAAE,IAAI,GAAG;;AAEvB,AAAA,UAAU,CAAC,EACP,MAAM,EAAE,GAAG,EACX,WAAW,EAAE,GAAG,EAChB,KAAK,EAAE,GAAG,GAAG;;AAEjB,AAAA,KAAK,CAAC,EACF,KAAK,EAAE,GAAG,GAAG"
+}
