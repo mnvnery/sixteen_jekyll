@@ -64,5 +64,10 @@ fields:
     max: 
     labelField: 
   label: 'Services '
+- name: closing_image
+  type: file
+  config:
+    maxSize: 64
+  label: Closing Image
 pages:
 - index.html
